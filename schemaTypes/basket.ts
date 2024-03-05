@@ -26,6 +26,11 @@ export default defineType({
       type: 'number',
     }),
     defineField({
+      name: 'productTotalPrice',
+      title: 'Бүтээгдэхүүний нийт үнэ',
+      type: 'number',
+    }),
+    defineField({
       name: 'userId',
       title: 'Хэрэглэгчийн дугаар',
       type: 'string',
